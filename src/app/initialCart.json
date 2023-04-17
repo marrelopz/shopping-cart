@@ -1,0 +1,6 @@
+{
+    "products" : [
+      { "id": 1, "name": "Chocolate", "description": "Chocolate Dark", "price": "10.00", "amount" : 2 },
+      { "id": 7, "name": "Manzanas", "description": "Manzana roja", "price": "5.00",  "amount" : 1 }
+    ]
+}

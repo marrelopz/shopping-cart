@@ -1,7 +1,4 @@
 <div>
-    <div class="cart-header">
-        <button name="edit" id="edit" class="actions-btn" (click)="showCart()"> View Cart</button>
-    </div>
     <div class="main">      
         <div class="table-default">
             <table class="content-table" border="1">
@@ -12,30 +9,23 @@
                         <th> Name </th>
                         <th> Description </th>
                         <th> Price </th>
+                        <th> Amount </th>
                         <th></th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let item of $any(productList); trackBy: productTrackby; let i = index;">
+                    <tr *ngFor="let item of $any(data); trackBy: productTrackby; let i = index;">
                         <td> {{item.id}} </td>
                         <td> {{item.name}} </td>
                         <td> {{item.description}} </td>
                         <td> {{item.price}} </td>
+                        <td> {{item.amount}} </td>
                         <td>
-                            <button name="edit" id="edit" class="actions-btn" (click)="addProduct(item)" >Agregar</button>
+                            <button name="edit" id="edit" class="actions-btn" >Eliminar</button>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <div class="table-pagination">
-                <i class="left-btn" id="back" (click)="onLeft()"></i>
-                <p class="pagination-text">Página {{pageNum + 1}} de {{totalPages}}</p>
-                <i class="right-btn" id="back" (click)="onRight()"></i>
-            </div>
         </div>
     </div>
-    <div id="cart" class="not-visible">
-        <app-cart class="cart-class" [data]="cartList"></app-cart>
-    </div>
-    
 </div>
