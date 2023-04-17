@@ -1,0 +1,14 @@
+{
+    "products" : [
+      { "id": 1, "name": "Chocolate", "description": "Chocolate Dark", "price": "10.00" },
+      { "id": 2, "name": "Papalinas", "description": "Sabor Barbacoa", "price": "20.00" },
+      { "id": 3, "name": "Agua de Coco", "description": "Agua de coco natural", "price": "35.00" },
+      { "id": 4, "name": "Pan Sandwich", "description": "Pan Blanco en rodaja", "price": "23.00" },
+      { "id": 5, "name": "Galletas", "description": "Galletas saladas", "price": "8.50" },
+      { "id": 6, "name": "Juego de naranja", "description": "Jugo de naranja natural", "price": "60.00" },
+      { "id": 7, "name": "Manzanas", "description": "Manzana roja", "price": "5.00" },
+      { "id": 8, "name": "Gomitas", "description": "Gomitas sabor fresa", "price": "13.00" },
+      { "id": 9, "name": "Toallas humedas", "description": "Toallas humedas sin alcohol", "price": "14.00" },
+      { "id": 10, "name": "Botonetas", "description": "Botonetas con manía", "price": "8.00" }
+    ]
+}

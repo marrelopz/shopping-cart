@@ -1,0 +1,188 @@
+/* app/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&family=Mulish&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.main{
+  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.header header{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.agregar{
+   position: absolute;
+   right: 0;
+   align-items: center;
+   background: #1A44DB;
+   border-radius: 8px;
+   text-align: center;
+   font-family: 'Jost', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #FFFFFF;
+   padding:  10px 20px;
+   border: none;
+}
+
+  .search-field{
+
+    width: 95%;
+    background-color: #F7F7FC;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 200px;
+
+  }
+
+  input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus, 
+    input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+ input:focus {
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .search-input{
+    border: none;
+    background: transparent;
+    vertical-align: top;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9A9AB0;
+    margin-left: 10px;
+    width: 95%;
+  }
+
+  .content-table
+  {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  table{
+    border: none;
+  }
+
+  td, th {
+    border: none;
+    text-align: start;
+    padding: 20px;
+    
+}
+
+th{
+    background-color: #8686F1;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+td{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    border-bottom: 0.5px solid #E1E1FB;
+
+}
+
+
+  .actions-btn{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    color: #000000;
+    border: none;
+    background-color: transparent;
+    display: block;
+  }
+  
+  .default-view{
+    display: block;
+    position: relative;
+  }
+
+  .calendar-view{
+    display: none;
+  }
+
+  .options-container {
+    background: #FFFFFF;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+
+  .actions-disble {
+    display: block!important;
+  }
+
+  
+.left-btn {
+  background-image: url( '..\..\..\assets\images\page-left-arrow.png' );
+  margin-right: 18px;
+}
+
+.right-btn {
+  background-image: url( '..\..\..\assets\images\page-right-arrow.png' );
+  margin-left: 18px;
+}
+
+.left-btn,
+.right-btn {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.table-pagination {
+  display: flex;
+  padding: 20px;
+  justify-content: end;
+}
+
+.pagination-text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  vertical-align: middle;
+}
